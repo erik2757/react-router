@@ -4,6 +4,7 @@
 }
 body,
 body > div {
+
   height: 100vh;
   width: 100vw;
 }
@@ -16,11 +17,15 @@ body > div {
   display: flex;
 }
 #navbar {
+  background-image: url(https://www.shutterstock.com/image-photo/penarth-vale-glamorgan-united-kingdom-600nw-1331050637.jpg);
+  background-color: rgba(0, 0, 0, 0);
   padding: 2em;
   justify-content: space-evenly;
+  
+
 }
 #main-section {
-  flex-grow: 1;
+flex-grow: 1;
 }
 #main-section > div {
   width: 100%;
@@ -29,15 +34,33 @@ body > div {
   justify-content: center;
 }
 .red {
-  background-color: #b05f6d;
-  color: white;
+ /* background-color: #b05f6d;*/
+ background-image: url(https://www.onlygfx.com/wp-content/uploads/2016/07/red-crayon-2.jpg);
+ background-position: center; 
+ color: black;
 }
 .blue {
-  background-color: #275db3;
-  color: white;
+/* background-color: #275db3;*/ 
+background-image: url(https://as2.ftcdn.net/v2/jpg/02/45/54/67/1000_F_245546755_TDipBIuCfgmhSxv9RaFJRuVgAd0tk414.jpg);
+background-position: right; 
+color: black;
 }
 
 .home {
-  background-color: rgb(38, 115, 74);
-  color: white;
+  background-image: url(https://www.shutterstock.com/image-photo/multicolored-crayon-on-paper-drawing-600nw-2369378689.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  
+  color: black;
+}
+.footer{ 
+  background-image: url(https://www.shutterstock.com/image-photo/penarth-vale-glamorgan-united-kingdom-600nw-1331050637.jpg);
+  padding: 2em;
+  justify-content: space-evenly;
+}
+.yellow{
+  background-image: url(https://as1.ftcdn.net/v2/jpg/00/97/02/40/1000_F_97024029_3OC6XADATZfMunYB6GOXxi3BfvQth9nb.jpg);
+  background-position: right;
+  color: black;
 }
