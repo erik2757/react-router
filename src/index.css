@@ -42,7 +42,8 @@ flex-grow: 1;
 .blue {
 /* background-color: #275db3;*/ 
 background-image: url(https://as2.ftcdn.net/v2/jpg/02/45/54/67/1000_F_245546755_TDipBIuCfgmhSxv9RaFJRuVgAd0tk414.jpg);
-background-position: right; 
+background-position:top;
+background-size: cover; 
 color: black;
 }
 
@@ -61,6 +62,7 @@ color: black;
 }
 .yellow{
   background-image: url(https://as1.ftcdn.net/v2/jpg/00/97/02/40/1000_F_97024029_3OC6XADATZfMunYB6GOXxi3BfvQth9nb.jpg);
-  background-position: right;
+  background-size: cover;
+  background-position: top;
   color: black;
 }
